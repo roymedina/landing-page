@@ -57,9 +57,7 @@ html {
 body {
     max-width: 350px;
     margin: 0 auto;
-    border-top-style: solid;
-    border-top-width: 6px;
-    border-top-color: #E62C85;
+
 }
 
 header {
@@ -81,6 +79,9 @@ header {
 form {    
     display: flex;    
     padding-bottom: 5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E62C85;
 }
 
 input {
@@ -117,11 +118,11 @@ button:hover {
 
 .comparison {
     text-align: center;
+    padding-top: 5rem;
 }
 
 .comparison iframe {
     padding-bottom: 1.3755rem;
-    
     border-top-style: solid;
     border-top-width: 6px;
     border-top-color: #E62C85;
@@ -135,28 +136,15 @@ button:hover {
 footer {
     display: flex;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .footer {
-    padding-bottom: 7.5rem;
-    margin: 0 12.58064516129032%;
+    margin-left:  6.571428571428571%;
+    padding-bottom: 5rem;
 }
 
 /* Text Styles */
-
-li {
-    list-style: none;
-    display: inline;
-
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    color: #4a4a4a;
-    
-    text-decoration: underline;
-}
 
 p {
     font-family: brandon-grotesque, sans-serif;
@@ -175,30 +163,29 @@ h1 {
     font-size: 1.4375rem;
     line-height: 2.25rem;
     color: #212121;
-    
     padding-bottom: 1.3755rem;
 }
 
-h2 {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4375rem;
-    line-height: 2.25rem;
-    color: #212121;
-    
-    text-decoration: underline;
-}
-
-h4 {
+h3 {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     color: #737373; 
-    
-    padding: 1.59rem 0;
+    padding: 1.3755rem 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #4a4a4a;
+    text-decoration: underline;
 }
 
 h6 {
