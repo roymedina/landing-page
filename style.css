@@ -57,18 +57,21 @@ html {
 body {
     max-width: 350px;
     margin: 0 auto;
-
+    padding: 0 5.714285714285714%;
 }
 
 header {
+    position: fixed;
     padding: 1.0625rem 0 1.0625rem 0;
     display: flex;
     align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
 }
 
 .logo {
     width: 4.571428571428571%;
-    margin: 0 2% 0 0;
+    margin: 0 2% 0 -6.5%;
 
 }
 
@@ -104,12 +107,11 @@ input::placeholder {
     border: none;
     background-color: #E62C85;
     border-radius: 100px;
-    margin-left: 3%;
-    margin-right: 2%;
+    margin-left: 5%;
 }
 
 button p {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 button:hover {
@@ -140,7 +142,6 @@ footer {
 }
 
 .footer {
-    margin-left:  6.571428571428571%;
     padding-bottom: 5rem;
 }
 
@@ -152,7 +153,7 @@ p {
     font-weight: 400;
     font-size: 1.4375rem;
     line-height: 2.25rem;
-    color: 	#4a4a4a;
+    color: 	#4A4A4A;
     
 }
 
@@ -184,7 +185,7 @@ li {
     font-weight: 900;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    color: #4a4a4a;
+    color: #4A4A4A;
     text-decoration: underline;
 }
 
@@ -192,4 +193,10 @@ h6 {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 900;
     color: #212121;
+}
+
+/* Desktop rules */
+
+@media only screen and (min-width: 351px) {
+
 }
