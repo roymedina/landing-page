@@ -65,14 +65,14 @@ header {
     padding: 1.0625rem 0 1.0625rem 0;
     display: flex;
     align-items: center;
-    background-color: #FFFFFF;
     width: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.9;
 }
 
 .logo {
     width: 4.571428571428571%;
     margin: 0 2% 0 -6.5%;
-
 }
 
 .hero {
@@ -147,6 +147,11 @@ footer {
 
 /* Text Styles */
 
+a {
+    color: #E62C85;
+    text-decoration: none;
+}
+
 p {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
@@ -177,15 +182,19 @@ h3 {
     padding: 1.3755rem 0;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 li {
     list-style: none;
-    display: inline;
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    color: #4A4A4A;
+    color: #212121;
     text-decoration: underline;
 }
 
