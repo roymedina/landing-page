@@ -257,12 +257,20 @@ h6 {
         padding: 10rem 0;
         margin: 5rem 0;
         text-align: center;
-        border-top-style: solid;
-        border-top-width: 1px;
-        border-top-color: #E62C85;
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #E62C85;
+        background-color: #E62C85;
+    }
+    
+    .newsletter p {
+        color: #FFFFFF;
+    }
+    
+    .newsletter a {
+        color: #FFFFFF;
+    }
+    
+    .newsletter a:hover {
+        color: #FFFFFF !important;
+        text-decoration: underline;
     }
     
     footer {
