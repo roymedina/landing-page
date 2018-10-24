@@ -1,284 +1,98 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+<!DOCTYPE html>
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* End of Meyer Reset CSS */
+<html class="no-js">
+    <head>
+        <!--Typekit-->
+        <style>@import url("https://use.typekit.net/ypn8psm.css");</style>
+        
+        <meta charset="UTF-8" />
+        
+        <!--Don't forget to fill these out!-->
+        <title>Bye Bye Plastic Bags Mailing List</title>
+        <meta name="description" content="Description for site goes here." />
+        
+        
+        <!--Links to the main Style Sheet-->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+        <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+        <script src="js/modernizr.js"></script>
+        
+        <script src="js/slider.js"></script>
+        
+        <!--Makes the site so it won't scale down on small devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
 
-img {
-	max-width: 100%; /*makes images scale with flexible grids*/
-	display: block; /*removes tiny space added in some browsers below images */
-}
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/Logo_120x120.png">
+            </div>
+            
+            <h6>BYE BYE PLASTIC BAGS</h6>
+        </header>
+        
+        <div class="first">
+            <div class="hero">
+                <h1>LEARN ABOUT THE HARMFUL IMPACT OF PLASTIC BAGS ON OUR ENVIROMENTS.</h1>
 
-html {
-    font-size: 16px; /* Adjust for REM */
-	line-height: 1;
-}
+                <p>Sign up to receive news delivered to your inbox. We’ll only email when we have something important to tell you.</p>
+            </div>
 
-body {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 0 5.714285714285714%;
-}
+            <form>
+                <input type="text" placeholder="Email address" name="email" required>
 
-header {
-    padding: 1.0625rem 0 1.0625rem 0;
-    display: flex;
-    align-items: center;
-}
+                <button type="submit" class="signup"><p>Sign up</p></button>
+            </form>
+        </div>
 
-.logo {
-    width: 4.571428571428571%;
-    margin: 0 2% 0 0%; /* -6.5% */
-}
+        <div class="comparison">
+            <div class="hide"><h1>SEE THE DIFFERENCE</h1></div>
+            
+            <iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3779aac8-d4ea-11e8-9dba-0edaf8f81e27"></iframe>
+        </div>
+        
+        <div class="newsletter">
+            <p>Not sure?
+                
+            <br>
+                
+            <a href="#">Click here to view our latest newsletter</a></p>
 
-.hero {
-    padding: 4.5rem 0 2.751rem 0;
-}
-
-form {    
-    display: flex;   
-    padding-bottom: 5rem;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #E62C85;
-}
-
-input {
-    width: 65%;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4375rem;
-    line-height: 2.25rem;
-    color: #737373;
-    border-radius: 100px;
-    padding-left: 5%;
-}
-
-input::placeholder {
-
-}
-
-.signup {
-    width: 30%;
-    border: none;
-    background-color: #E62C85;
-    border-radius: 100px;
-    margin-left: 5%;
-}
-
-button p {
-    color: #FFFFFF;
-}
-
-button:hover {
-    border: 1px;
-    border-style: solid;
-    border-color: #E62C85;
-    background-color: #FFFFFF;
-    transition: color .2s ease-out, background-color .2s ease-out, border .2s ease-out;
-}
-
-button p:hover {
-    color: #E62C85;
-}
-
-.comparison {
-    text-align: center;
-    padding-top: 5rem;
-}
-
-.comparison iframe {
-    padding-bottom: 1.3755rem;
-    border-top-style: solid;
-    border-top-width: 6px;
-    border-top-color: #E62C85;
-}
-
-iframe {
-    width: 100%;
-    height: 210px;
-}
-
-.newsletter {
-    text-align: center;
-    padding-bottom: 2.751rem;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    padding-top: 5rem;
-}
-
-.footer {
-    padding-bottom: 5rem;
-}
-
-/* Text Styles */
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #E62C85 !important;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #4A4A4A ;
-}
-
-
-p {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4375rem;
-    line-height: 2.25rem;
-    color: 	#4A4A4A;
+        </div>
+        
+        <form class="hide">
+            <input type="text" placeholder="Email address" name="email" required>
+        
+            <button type="submit" class="signup"><p>Sign up</p></button>
+        </form>
+        
+        <footer>
+            <div class="logo">
+                <img src="images/Logo_120x120.png">
+            </div>
+            
+            <h6>BYE BYE PLASTIC BAGS</h6>
+        </footer>
+        
+        <div class="footer">
+            <h3>© 2018 Bye Bye Plastic Bags<br>
+            
+                <a href="#">Privacy Policy</a> · 
+                <a href="#">Terms of Service</a> · 
+                <a href="#">All rights reserved</a>
+            
+            </h3>
+           
+            <ul>
+                <a href="#"><li>ABOUT</li></a>
+                <a href="#"><li>TEAM</li></a>
+                <a href="#"><li>PROJECTS</li></a>
+                <a href="#"><li>MEDIA</li></a>
+                <a href="#"><li>CONTACT</li></a>
+            </ul>
+        </div>
     
-}
-
-h1 {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.4375rem;
-    line-height: 2.25rem;
-    color: #212121;
-    padding-bottom: 1.3755rem;
-}
-
-h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    color: #737373; 
-    padding: 1.3755rem 0;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-li {
-    list-style: none;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    color: #212121;
-    text-decoration: underline;
-   
-}
-
-h6 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 900;
-    color: #212121;
-}
-
-/* Desktop rRules */
-
-@media only screen and (min-width: 751px) {
-
-    body {
-        max-width: 1200px;
-    }
-    
-    .first {
-        width: 44%;
-        float: left;
-    }
-   
-     form {
-        border-bottom-style: none;
-    }
-    
-    .comparison {
-        width: 56%;
-        margin-left: 50%;
-        padding-top: 5rem;
-    }
-    
-    iframe {
-        width: 46.4%;
-        height: 210px;
-    }
-    
-    .newsletter {
-        width: 100%;
-        padding: 10rem 0;
-        margin: 5rem 0;
-        text-align: center;
-        border-top-style: solid;
-        border-top-width: 1px;
-        border-top-color: #E62C85;
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #E62C85;
-    }
-    
-    footer {
-        padding-top: 0rem;   
-    }
-    
-    .footer {
-        float: left;
-    }
-    
-    ul {
-        display: inline-block;
-    }
-    
-    .hide {
-        display: none;
-    }
-
-}
+    </body>
+</html>
