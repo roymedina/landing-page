@@ -61,18 +61,14 @@ body {
 }
 
 header {
-    position: fixed;
     padding: 1.0625rem 0 1.0625rem 0;
     display: flex;
     align-items: center;
-    width: 100%;
-    background-color: #FFFFFF;
-    opacity: 0.9;
 }
 
 .logo {
     width: 4.571428571428571%;
-    margin: 0 2% 0 -6.5%;
+    margin: 0 2% 0 0%; /* -6.5% */
 }
 
 .hero {
@@ -80,7 +76,7 @@ header {
 }
 
 form {    
-    display: flex;    
+    display: flex;   
     padding-bottom: 5rem;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -96,6 +92,7 @@ input {
     line-height: 2.25rem;
     color: #737373;
     border-radius: 100px;
+    padding-left: 5%;
 }
 
 input::placeholder {
@@ -115,7 +112,15 @@ button p {
 }
 
 button:hover {
+    border: 1px;
+    border-style: solid;
+    border-color: #E62C85;
+    background-color: #FFFFFF;
+    transition: color .2s ease-out, background-color .2s ease-out, border .2s ease-out;
+}
 
+button p:hover {
+    color: #E62C85;
 }
 
 .comparison {
@@ -148,9 +153,18 @@ footer {
 /* Text Styles */
 
 a {
-    color: #E62C85;
     text-decoration: none;
 }
+
+a:hover {
+    color: #E62C85 !important;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4A4A4A ;
+}
+
 
 p {
     font-family: brandon-grotesque, sans-serif;
@@ -195,7 +209,6 @@ li {
     font-size: 0.875rem;
     line-height: 1.5rem;
     color: #212121;
-    text-decoration: underline;
 }
 
 h6 {
