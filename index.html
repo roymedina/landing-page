@@ -33,22 +33,24 @@
             <h6>BYE BYE PLASTIC BAGS</h6>
         </header>
         
-        <div class="hero">
-            <h1>LEARN ABOUT THE HARMFUL IMPACT OF PLASTIC BAGS ON OUR ENVIROMENTS.</h1>
-            
-            <p>Sign up to receive news delivered to your inbox. We’ll only email when we have something important to tell you.</p>
+        <div class="first">
+            <div class="hero">
+                <h1>LEARN ABOUT THE HARMFUL IMPACT OF PLASTIC BAGS ON OUR ENVIROMENTS.</h1>
+
+                <p>Sign up to receive news delivered to your inbox. We’ll only email when we have something important to tell you.</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Email address" name="email" required>
+
+                <button type="submit" class="signup"><p>Sign up</p></button>
+            </form>
         </div>
-        
-        <form>
-            <input type="text" placeholder="Email address" name="email" required>
-        
-            <button type="submit" class="signup"><p>Sign up</p></button>
-        </form>
 
         <div class="comparison">
-            <h1>SEE THE DIFFERENCE</h1>
+            <div class="hide"><h1>SEE THE DIFFERENCE</h1></div>
             
-            <iframe frameborder="0" class="juxtapose" width="100%" height="233px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3779aac8-d4ea-11e8-9dba-0edaf8f81e27"></iframe>
+            <iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3779aac8-d4ea-11e8-9dba-0edaf8f81e27"></iframe>
         </div>
         
         <div class="newsletter">
@@ -60,7 +62,7 @@
 
         </div>
         
-        <form>
+        <form class="hide">
             <input type="text" placeholder="Email address" name="email" required>
         
             <button type="submit" class="signup"><p>Sign up</p></button>
@@ -75,7 +77,13 @@
         </footer>
         
         <div class="footer">
-            <h3>© 2018 Bye Bye Plastic Bags<br>Privacy Policy · Terms of Service · All rights reserved</h3>
+            <h3>© 2018 Bye Bye Plastic Bags<br>
+            
+                <a href="#">Privacy Policy</a> · 
+                <a href="#">Terms of Service</a> · 
+                <a href="#">All rights reserved</a>
+            
+            </h3>
            
             <ul>
                 <a href="#"><li>ABOUT</li></a>
